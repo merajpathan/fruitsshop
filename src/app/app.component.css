@@ -1,0 +1,48 @@
+
+.image{
+  background-color: crimson;
+  width: 100px;
+  height: 50px;
+  border-style: groove;
+}
+
+.header {
+    overflow: hidden;
+    background-color: yellow;
+    padding: 10px 10px;
+  }
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(20, 50, 220);
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    background:greenyellow;
+  }
+  
+  .header a:hover {
+    background-color: red;
+    color: black;
+  }
+  
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+ 
